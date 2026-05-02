@@ -2,7 +2,7 @@ import "../assets/css/pagescss/Register.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { sendRegister } from "../api/send-register";
-import logoblackregister from "../assets/img/trocoBlack.svg";
+import logoblackregister from "../assets/img/TrocoBlack.svg";
 import locations from "../utils/locations-list";
 import { LocationSelect } from "../components/LocationSelect";
 
