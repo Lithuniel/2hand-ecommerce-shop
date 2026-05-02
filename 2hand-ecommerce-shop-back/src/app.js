@@ -25,6 +25,7 @@ app.get("/init-db", async (req, res) => {
 app.use(
   cors({
     origin: [
+      "https://troco.up.railway.app",
       "https://troco.pro",
       "http://localhost:8080",
       "http://localhost:5173",
