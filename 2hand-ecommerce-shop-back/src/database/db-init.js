@@ -154,19 +154,19 @@ const initDB = async () => {
   await pool.query(`
     INSERT INTO users(id, username, email, emailValidated, password, first_name, last_name, city, profile_img, bio_summary, is_deleted) 
         VALUES 
-        ('d84f709f-4dd1-4785-8a1c-14f62735df0b', 'plato', 'plato@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Plato', 'Aristocles', 'Albacete', 'https://i.pravatar.cc/150?img=1', 'Hello, I am Plato!', false),
-        ('f2e1afd4-c264-4126-80bf-f6731e826121', 'socrates', 'socrates@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Socrates', 'Descartes', 'Cantabria', 'https://i.pravatar.cc/150?img=2', 'Hello, I am Socrates!', false),
-        ('3633a9e4-1e59-4af5-9cf7-9abfa03cea1b', 'kant', 'kant@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Immanuel', 'Kant', 'Teruel', 'https://i.pravatar.cc/150?img=3', 'Hello, I am Immanuel!', false),
-        ('0e0d2925-e34f-491d-bced-2afbdc24fd53', 'nietzsche', 'nietzsche@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Friedrich', 'Nietzsche', 'Teruel', 'https://i.pravatar.cc/150?img=4', 'Hello, I am Friedrich!', false),
-        ('dcbc0d07-1889-46d5-a44f-89e6df34dc0b', 'locke', 'locke@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'John', 'Locke', 'Soria', 'https://i.pravatar.cc/150?img=5', 'Hello, I am John!', false),
-        ('06d27949-94fe-4cc1-b7fe-764d68baa0b5', 'descartes', 'descartes@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Rene', 'Descartes', 'Soria', 'https://i.pravatar.cc/150?img=6', 'Hello, I am Rene!', false),
-        ('fc7c8f59-22e7-4a18-9c96-aa1668d4d3b1', 'aristotle', 'aristotle@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Aristotle', 'Stagiritis', 'Jaén', 'https://i.pravatar.cc/150?img=7', 'Hello, I am Aristotle!', false),
-        ('77f678a2-4985-42e0-9d34-9c05b0512f87', 'kierkegaard', 'kierkegaard@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Søren', 'Kierkegaard', 'Jaén', 'https://i.pravatar.cc/150?img=8', 'Hello, I am Kierkegaard!', false),
-        ('af9d24e4-7edf-4db2-9e74-4e6ef48e9c62', 'plutarch', 'plutarch@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Plutarch', 'Epictetus', 'Granada', 'https://i.pravatar.cc/150?img=9', 'Hello, I am Plutarch!', false),
-        ('b22f20ef-128f-4a07-8329-f5c7fba4b9b1', 'thomas', 'thomas@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Thomas', 'Aquinas', 'Granada', 'https://i.pravatar.cc/150?img=10', 'Hello, I am Thomas!', false),
-        ('43f2ff55-f4de-4f47-bc87-49c8691e5770', 'hume', 'hume@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'David', 'Hume', 'Pontevedra', 'https://i.pravatar.cc/150?img=11', 'Hello, I am Hume!', false),
-        ('ea59600b-23c9-41fc-9ab2-d886e348f5f1', 'rousseau', 'rousseau@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Jean-Jacques', 'Rousseau', 'Albacete', 'https://i.pravatar.cc/150?img=12', 'Hello, I am Rousseau!', false),
-        ('c1834d47-ae85-477a-8ebf-8d8a2d8c61cc', 'spinoza', 'spinoza@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Baruch', 'Spinoza', 'Cantabria', 'https://i.pravatar.cc/150?img=13', 'Hello, I am Spinoza!', false);
+        ('d84f709f-4dd1-4785-8a1c-14f62735df0b', 'plato', 'plato@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Plato', 'Aristocles', 'Albacete', '/img/user1.jpg', 'Hello, I am Plato!', false),
+        ('f2e1afd4-c264-4126-80bf-f6731e826121', 'socrates', 'socrates@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Socrates', 'Descartes', 'Cantabria', '/img/user2.jpg', 'Hello, I am Socrates!', false),
+        ('3633a9e4-1e59-4af5-9cf7-9abfa03cea1b', 'kant', 'kant@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Immanuel', 'Kant', 'Teruel', '/img/user3.jpg', 'Hello, I am Immanuel!', false),
+        ('0e0d2925-e34f-491d-bced-2afbdc24fd53', 'nietzsche', 'nietzsche@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Friedrich', 'Nietzsche', 'Teruel', '/img/user4.jpg', 'Hello, I am Friedrich!', false),
+        ('dcbc0d07-1889-46d5-a44f-89e6df34dc0b', 'locke', 'locke@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'John', 'Locke', 'Soria', '/img/user5.jpg', 'Hello, I am John!', false),
+        ('06d27949-94fe-4cc1-b7fe-764d68baa0b5', 'descartes', 'descartes@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Rene', 'Descartes', 'Soria', '/img/user20.jpg', 'Hello, I am Rene!', false),
+        ('fc7c8f59-22e7-4a18-9c96-aa1668d4d3b1', 'aristotle', 'aristotle@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Aristotle', 'Stagiritis', 'Jaén', '/img/user6.jpg', 'Hello, I am Aristotle!', false),
+        ('77f678a2-4985-42e0-9d34-9c05b0512f87', 'kierkegaard', 'kierkegaard@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Søren', 'Kierkegaard', 'Jaén', '/img/user7.jpg', 'Hello, I am Kierkegaard!', false),
+        ('af9d24e4-7edf-4db2-9e74-4e6ef48e9c62', 'plutarch', 'plutarch@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Plutarch', 'Epictetus', 'Granada', '/img/user8.jpg', 'Hello, I am Plutarch!', false),
+        ('b22f20ef-128f-4a07-8329-f5c7fba4b9b1', 'thomas', 'thomas@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Thomas', 'Aquinas', 'Granada', '/img/user9.jpg', 'Hello, I am Thomas!', false),
+        ('43f2ff55-f4de-4f47-bc87-49c8691e5770', 'hume', 'hume@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'David', 'Hume', 'Pontevedra', '/img/user10.jpg', 'Hello, I am Hume!', false),
+        ('ea59600b-23c9-41fc-9ab2-d886e348f5f1', 'rousseau', 'rousseau@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Jean-Jacques', 'Rousseau', 'Albacete', '/img/user11.jpg', 'Hello, I am Rousseau!', false),
+        ('c1834d47-ae85-477a-8ebf-8d8a2d8c61cc', 'spinoza', 'spinoza@example.com', true, '$2y$12$etXEQTvRSgKrHu7qUNAlHuF6bRLl5g9sTPXO03Ul16dAm.bZWZoXC', 'Baruch', 'Spinoza', 'Cantabria', '/img/user12.jpg', 'Hello, I am Spinoza!', false);
     `);
 
   // Insert mock data into the category table
@@ -218,40 +218,6 @@ const initDB = async () => {
         ('b2351bdc-3ea5-4e6d-87e6-5e22f90613f2', 'Pentax K1000', 'Classic 35mm film SLR camera.', 100.00, 'good', 'available', 5, 'f2e1afd4-c264-4126-80bf-f6731e826121'),
         ('bb7e90ff-89df-44f3-9476-5f356c7c5e19', 'Sega Mega Drive (Genesis)', '16-bit video game console known for its popular game library.', 120.00, 'ok', 'available', 2, 'f2e1afd4-c264-4126-80bf-f6731e826121'),
         ('781a1553-9ff3-42e4-9186-51cc1e9a773b', 'Vintage Game Boy', 'Handheld gaming console that started the portable gaming trend.', 70.00, 'not_used', 'available', 2, 'f2e1afd4-c264-4126-80bf-f6731e826121');
-    `);
-
-  // Insert mock data into the item_images table
-  await pool.query(`
-    INSERT INTO item_images(id, imageURL, item_id)
-        VALUES
-        ('img-0001-0000-0000-0000-000000000001', 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Commodore64.jpg', '3659f8d9-9c4e-4c6d-9606-30824a2d3b2b'),
-        ('img-0002-0000-0000-0000-000000000002', 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg', '93b79a87-767f-473d-bcfd-2ebf1dace69f'),
-        ('img-0003-0000-0000-0000-000000000003', 'https://upload.wikimedia.org/wikipedia/commons/6/6f/Sony_Trinitron_KV-1310.jpg', 'fc8c0baa-4914-4663-821f-ae0fdd8e1504'),
-        ('img-0004-0000-0000-0000-000000000004', 'https://upload.wikimedia.org/wikipedia/commons/4/48/IBM_Model_M.png', 'a04b0865-ebf0-4a3f-a8a6-bddce2d2c2f1'),
-        ('img-0005-0000-0000-0000-000000000005', 'https://upload.wikimedia.org/wikipedia/commons/8/82/NES-Console-Set.jpg', 'e66d2f9f-5836-4d74-af17-1b8f8e6b7854'),
-        ('img-0006-0000-0000-0000-000000000006', 'https://upload.wikimedia.org/wikipedia/commons/8/82/NES-Console-Set.jpg', 'ff978e89-48ef-4b85-9d92-bd2e9b8992a4'),
-        ('img-0007-0000-0000-0000-000000000007', 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Technics-SL-1200MK2-Turntable.jpg', 'b8c38b8c-16e7-4a94-993a-1e3e1d5e61c9'),
-        ('img-0008-0000-0000-0000-000000000008', 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Polaroid_land_camera_automatic_100.jpg', '3dd3fbf9-012c-4b1d-8227-69ef97ccfa5f'),
-        ('img-0009-0000-0000-0000-000000000009', 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Apple_Macintosh_SE.jpg', '60a9f6c1-95da-4d0c-9f96-1459a7a70375'),
-        ('img-0010-0000-0000-0000-000000000010', 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Sega-Genesis-Mod1-Set.jpg', '8e70ce5f-9c1e-49cc-bce7-3e4a80e6925c'),
-        ('img-0011-0000-0000-0000-000000000011', 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Walkman_sony_1980s.jpg', '51c6b6af-4296-4b9c-a57c-36e64d2d7d48'),
-        ('img-0012-0000-0000-0000-000000000012', 'https://upload.wikimedia.org/wikipedia/commons/5/52/NES-Advantage.jpg', '0d8c0c9e-84e9-4f8a-94b2-045c97d8c8f6'),
-        ('img-0013-0000-0000-0000-000000000013', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Grundig_Satellit_700.jpg', 'ca0e9ebd-1d6c-4143-8fde-4bbaae342350'),
-        ('img-0014-0000-0000-0000-000000000014', 'https://upload.wikimedia.org/wikipedia/commons/4/48/IBM_Model_M.png', '0c20982e-3a64-4a07-ba84-7d8895d6b858'),
-        ('img-0015-0000-0000-0000-000000000015', 'https://upload.wikimedia.org/wikipedia/commons/9/99/Atari-Lynx-II.jpg', 'e0b26e33-4779-441f-9fcd-9e6d0d22e9df'),
-        ('img-0016-0000-0000-0000-000000000016', 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Polaroid_SX-70.jpg', '7fb0ef1b-198d-4a92-86f0-3d5a7dbb0136'),
-        ('img-0017-0000-0000-0000-000000000017', 'https://upload.wikimedia.org/wikipedia/commons/9/9e/DynaTAC8000X.jpg', '9835e858-f007-41d9-aa43-41c545b10172'),
-        ('img-0018-0000-0000-0000-000000000018', 'https://upload.wikimedia.org/wikipedia/commons/8/82/NES-Console-Set.jpg', 'f8ce7c4e-ae3f-4619-90d1-933baeb518d1'),
-        ('img-0019-0000-0000-0000-000000000019', 'https://upload.wikimedia.org/wikipedia/commons/3/33/ZXSpectrum48k.jpg', 'b4c82efc-714b-41a4-9573-2b462a007c0f'),
-        ('img-0020-0000-0000-0000-000000000020', 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Game-Boy-Color-Purple.jpg', 'a1f21f07-9429-41a5-9be6-cf774474f3a6'),
-        ('img-0021-0000-0000-0000-000000000021', 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Walkman_sony_1980s.jpg', '7e6603fe-2f4e-4a2d-aae0-7e2b26e0144a'),
-        ('img-0022-0000-0000-0000-000000000022', 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Polaroid_SX-70.jpg', 'c3a58f13-7db4-4d75-8923-4db651dd9d63'),
-        ('img-0023-0000-0000-0000-000000000023', 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Sega-Genesis-Mod1-Set.jpg', 'df2bcf3d-979e-4e97-8a3f-9b0fe8b2a408'),
-        ('img-0024-0000-0000-0000-000000000024', 'https://upload.wikimedia.org/wikipedia/commons/8/82/NES-Console-Set.jpg', '9bf8a76a-8525-4a07-988c-ae0c8e29a808'),
-        ('img-0025-0000-0000-0000-000000000025', 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Apple_Macintosh_SE.jpg', 'e76a6c34-6f3e-4bb2-b3a4-41e71cc1b7fe'),
-        ('img-0026-0000-0000-0000-000000000026', 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Polaroid_land_camera_automatic_100.jpg', 'b2351bdc-3ea5-4e6d-87e6-5e22f90613f2'),
-        ('img-0027-0000-0000-0000-000000000027', 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Sega-Genesis-Mod1-Set.jpg', 'bb7e90ff-89df-44f3-9476-5f356c7c5e19'),
-        ('img-0028-0000-0000-0000-000000000028', 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg', '781a1553-9ff3-42e4-9186-51cc1e9a773b')
     `);
 
   // Insert mock data into the deal table
