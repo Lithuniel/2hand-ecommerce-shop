@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { sendLogin } from "../api/send-login";
 import { AuthContext, LoginContext } from "../contexts/auth-context.jsx";
-import logoblack from "../assets/img/trocoBlack.svg";
+import logoblack from "../assets/img/TrocoBlack.svg";
 import "../assets/css/pagescss/Login.css";
 
 //State to set the payload fo the form
