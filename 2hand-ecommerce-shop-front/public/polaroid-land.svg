@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2a"/>
+  
+  <!-- Body -->
+  <rect x="80" y="70" width="240" height="170" rx="10" fill="#1a1a1a"/>
+  <rect x="80" y="70" width="240" height="20" rx="5" fill="#333"/>
+  <!-- Lens -->
+  <circle cx="200" cy="165" r="55" fill="#222" stroke="#444" stroke-width="3"/>
+  <circle cx="200" cy="165" r="45" fill="#111" stroke="#555" stroke-width="2"/>
+  <circle cx="200" cy="165" r="35" fill="#1a2a3a"/>
+  <circle cx="200" cy="165" r="25" fill="#0a1520"/>
+  <circle cx="200" cy="165" r="10" fill="#050a10"/>
+  <circle cx="190" cy="155" r="6" fill="white" opacity="0.15"/>
+  <!-- Viewfinder -->
+  <rect x="275" y="85" width="30" height="20" rx="3" fill="#333" stroke="#555" stroke-width="1"/>
+  <rect x="277" y="87" width="26" height="16" rx="2" fill="#1a2a3a"/>
+  <!-- Flash -->
+  <circle cx="120" cy="100" r="18" fill="#888" stroke="#aaa" stroke-width="2"/>
+  <circle cx="120" cy="100" r="12" fill="#ffee88"/>
+  <!-- Shutter -->
+  <rect x="155" y="108" width="30" height="12" rx="3" fill="#555"/>
+  <!-- Film slot -->
+  <rect x="90" y="222" width="220" height="8" rx="3" fill="#333"/>
+  <!-- Brand -->
+  <text x="200" y="92" font-family="Arial" font-size="14" font-weight="bold" fill="#cc2200" text-anchor="middle">Polaroid</text>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Polaroid Land Camera — 1972</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2a"/>
+  
+  <circle cx="200" cy="155" r="130" fill="#d8d8d8"/>
+  <circle cx="200" cy="155" r="128" fill="none" stroke="#c8c8c8" stroke-width="4"/>
+  <rect x="70" y="40" width="260" height="20" rx="5" fill="#c8c8c8"/>
+  <!-- CD slot area -->
+  <rect x="75" y="55" width="250" height="10" rx="3" fill="#bbb"/>
+  <!-- Disc area -->
+  <circle cx="200" cy="160" r="100" fill="#e0e0e0" stroke="#ccc" stroke-width="2"/>
+  <circle cx="200" cy="160" r="85" fill="#ddd"/>
+  <circle cx="200" cy="160" r="70" fill="#1a1a2a"/>
+  <circle cx="200" cy="160" r="55" fill="#222" stroke="#444" stroke-width="1"/>
+  <circle cx="200" cy="160" r="40" fill="#1a1a30"/>
+  <circle cx="200" cy="160" r="10" fill="#888"/>
+  <circle cx="186" cy="146" r="10" fill="white" opacity="0.1"/>
+  <!-- Controls strip -->
+  <rect x="100" y="245" width="200" height="25" rx="5" fill="#ccc"/>
+  <circle cx="130" cy="257" r="9" fill="#999"/>
+  <circle cx="160" cy="257" r="9" fill="#999"/>
+  <circle cx="200" cy="257" r="11" fill="#0055cc"/>
+  <circle cx="240" cy="257" r="9" fill="#999"/>
+  <circle cx="270" cy="257" r="9" fill="#999"/>
+  <polygon points="197,252 197,262 207,257" fill="white"/>
+  <!-- Sony label -->
+  <text x="200" y="108" font-family="Arial" font-size="13" font-weight="bold" fill="#0055cc" text-anchor="middle">SONY</text>
+  <text x="200" y="122" font-family="Arial" font-size="9" fill="#666" text-anchor="middle">Discman D-50</text>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Sony Discman — 1984</text>
+</svg>

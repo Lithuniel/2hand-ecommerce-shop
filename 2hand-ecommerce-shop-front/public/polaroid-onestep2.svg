@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#0a1a2a"/>
+  
+  <rect x="85" y="60" width="230" height="210" rx="12" fill="#ffffff"/>
+  <rect x="85" y="60" width="230" height="20" rx="6" fill="#f0f0f0"/>
+  <!-- Lens circle -->
+  <circle cx="200" cy="175" r="55" fill="#e0e0e0" stroke="#ccc" stroke-width="2"/>
+  <circle cx="200" cy="175" r="45" fill="#d0d0d0"/>
+  <circle cx="200" cy="175" r="35" fill="#1a1a2a"/>
+  <circle cx="200" cy="175" r="25" fill="#0a0a14"/>
+  <circle cx="200" cy="175" r="12" fill="#050508"/>
+  <circle cx="188" cy="163" r="8" fill="white" opacity="0.2"/>
+  <!-- Rainbow stripe top -->
+  <rect x="85" y="78" width="33" height="10" fill="#e52a2a"/>
+  <rect x="118" y="78" width="33" height="10" fill="#e8a030"/>
+  <rect x="151" y="78" width="33" height="10" fill="#e8e030"/>
+  <rect x="184" y="78" width="33" height="10" fill="#30e030"/>
+  <rect x="217" y="78" width="33" height="10" fill="#3030e8"/>
+  <rect x="250" y="78" width="33" height="10" fill="#9030e0"/>
+  <rect x="283" y="78" width="32" height="10" rx="2" fill="#e030a0"/>
+  <!-- Flash -->
+  <circle cx="120" cy="120" r="20" fill="#e8e8e8" stroke="#ccc" stroke-width="2"/>
+  <circle cx="120" cy="120" r="12" fill="#ffee99"/>
+  <!-- Viewfinder -->
+  <rect x="268" y="90" width="32" height="22" rx="3" fill="#ddd" stroke="#ccc" stroke-width="1"/>
+  <rect x="271" y="93" width="26" height="16" rx="2" fill="#1a1a2a"/>
+  <!-- Film slot -->
+  <rect x="90" y="255" width="220" height="10" rx="3" fill="#e0e0e0"/>
+  <!-- Polaroid text -->
+  <text x="200" y="100" font-family="Arial" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Polaroid</text>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Polaroid OneStep 2 — 2016</text>
+</svg>

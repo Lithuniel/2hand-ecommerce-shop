@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#0a0a1a"/>
+  
+  <!-- TV body -->
+  <rect x="60" y="50" width="280" height="210" rx="15" fill="#2a2a2a"/>
+  <rect x="70" y="60" width="260" height="175" rx="10" fill="#111"/>
+  <!-- Screen -->
+  <rect x="80" y="70" width="200" height="150" rx="8" fill="#1a3a1a"/>
+  <rect x="82" y="72" width="196" height="146" rx="7" fill="#0d250d"/>
+  <!-- Scanlines -->
+  <g stroke="#1a4a1a" stroke-width="1" opacity="0.5">
+    <line x1="82" y1="80" x2="278" y2="80"/>
+    <line x1="82" y1="88" x2="278" y2="88"/>
+    <line x1="82" y1="96" x2="278" y2="96"/>
+    <line x1="82" y1="104" x2="278" y2="104"/>
+    <line x1="82" y1="112" x2="278" y2="112"/>
+    <line x1="82" y1="120" x2="278" y2="120"/>
+    <line x1="82" y1="128" x2="278" y2="128"/>
+    <line x1="82" y1="136" x2="278" y2="136"/>
+    <line x1="82" y1="144" x2="278" y2="144"/>
+    <line x1="82" y1="152" x2="278" y2="152"/>
+    <line x1="82" y1="160" x2="278" y2="160"/>
+    <line x1="82" y1="168" x2="278" y2="168"/>
+  </g>
+  <!-- Sony logo -->
+  <text x="180" y="145" font-family="Arial" font-size="22" font-weight="bold" fill="#00cc00" text-anchor="middle" opacity="0.7">SONY</text>
+  <!-- Controls -->
+  <circle cx="310" cy="100" r="12" fill="#1a1a1a" stroke="#555" stroke-width="2"/>
+  <circle cx="310" cy="130" r="12" fill="#1a1a1a" stroke="#555" stroke-width="2"/>
+  <circle cx="310" cy="160" r="8" fill="#e04040"/>
+  <circle cx="310" cy="180" r="5" fill="#444"/>
+  <!-- Stand -->
+  <rect x="150" y="258" width="100" height="12" rx="4" fill="#222"/>
+  <rect x="170" y="250" width="60" height="10" rx="3" fill="#1a1a1a"/>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Sony Trinitron TV — 1968</text>
+</svg>

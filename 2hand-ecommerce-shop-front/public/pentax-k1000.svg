@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a1a"/>
+  
+  <!-- Body -->
+  <rect x="70" y="80" width="260" height="170" rx="8" fill="#222"/>
+  <rect x="70" y="80" width="260" height="15" rx="4" fill="#1a1a1a"/>
+  <!-- Top plate -->
+  <rect x="70" y="68" width="260" height="20" rx="5" fill="#333"/>
+  <!-- Lens -->
+  <circle cx="200" cy="175" r="65" fill="#1a1a1a" stroke="#555" stroke-width="4"/>
+  <circle cx="200" cy="175" r="55" fill="#111" stroke="#444" stroke-width="2"/>
+  <circle cx="200" cy="175" r="42" fill="#0a0a0a"/>
+  <circle cx="200" cy="175" r="30" fill="#080808"/>
+  <circle cx="200" cy="175" r="14" fill="#050505"/>
+  <circle cx="183" cy="158" r="12" fill="white" opacity="0.08"/>
+  <!-- Shutter button -->
+  <circle cx="310" cy="72" r="10" fill="#888"/>
+  <circle cx="310" cy="72" r="6" fill="#666"/>
+  <!-- Viewfinder -->
+  <rect x="160" y="60" width="40" height="15" rx="3" fill="#111"/>
+  <rect x="163" y="62" width="34" height="11" rx="2" fill="#1a1a3a"/>
+  <!-- Film advance -->
+  <rect x="82" y="62" width="25" height="14" rx="3" fill="#444"/>
+  <!-- PENTAX label -->
+  <text x="200" y="105" font-family="Arial" font-size="14" font-weight="bold" fill="#aaa" text-anchor="middle">PENTAX</text>
+  <text x="200" y="120" font-family="Arial" font-size="10" fill="#777" text-anchor="middle">K1000</text>
+  <!-- Hot shoe -->
+  <rect x="195" y="56" width="50" height="8" rx="2" fill="#555"/>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Pentax K1000 — 1976</text>
+</svg>

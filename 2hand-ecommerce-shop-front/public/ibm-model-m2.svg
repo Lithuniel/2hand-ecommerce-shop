@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#2a2a3a"/>
+  
+  <rect x="30" y="90" width="340" height="140" rx="8" fill="#cccccc"/>
+  <rect x="30" y="90" width="340" height="10" rx="4" fill="#aaaaaa"/>
+  <g fill="#dddddd" stroke="#aaa" stroke-width="0.5">
+    <rect x="40" y="105" width="22" height="16" rx="2"/><rect x="68" y="105" width="22" height="16" rx="2"/>
+    <rect x="96" y="105" width="22" height="16" rx="2"/><rect x="124" y="105" width="22" height="16" rx="2"/>
+    <rect x="158" y="105" width="22" height="16" rx="2"/><rect x="186" y="105" width="22" height="16" rx="2"/>
+    <rect x="214" y="105" width="22" height="16" rx="2"/><rect x="242" y="105" width="22" height="16" rx="2"/>
+    <rect x="275" y="105" width="22" height="16" rx="2"/><rect x="303" y="105" width="22" height="16" rx="2"/>
+    <rect x="331" y="105" width="22" height="16" rx="2"/>
+    <rect x="40" y="127" width="22" height="16" rx="2"/><rect x="68" y="127" width="22" height="16" rx="2"/>
+    <rect x="96" y="127" width="22" height="16" rx="2"/><rect x="124" y="127" width="22" height="16" rx="2"/>
+    <rect x="152" y="127" width="22" height="16" rx="2"/><rect x="180" y="127" width="22" height="16" rx="2"/>
+    <rect x="208" y="127" width="22" height="16" rx="2"/><rect x="236" y="127" width="22" height="16" rx="2"/>
+    <rect x="264" y="127" width="22" height="16" rx="2"/><rect x="292" y="127" width="22" height="16" rx="2"/>
+    <rect x="320" y="127" width="50" height="16" rx="2"/>
+    <rect x="40" y="149" width="34" height="16" rx="2"/><rect x="80" y="149" width="22" height="16" rx="2"/>
+    <rect x="108" y="149" width="22" height="16" rx="2"/><rect x="136" y="149" width="22" height="16" rx="2"/>
+    <rect x="164" y="149" width="22" height="16" rx="2"/><rect x="192" y="149" width="22" height="16" rx="2"/>
+    <rect x="220" y="149" width="22" height="16" rx="2"/><rect x="248" y="149" width="22" height="16" rx="2"/>
+    <rect x="276" y="149" width="22" height="16" rx="2"/><rect x="304" y="149" width="22" height="16" rx="2"/>
+    <rect x="40" y="171" width="44" height="16" rx="2"/>
+    <rect x="146" y="171" width="116" height="16" rx="2"/>
+    <rect x="268" y="171" width="22" height="16" rx="2"/><rect x="296" y="171" width="22" height="16" rx="2"/>
+    <rect x="324" y="171" width="46" height="16" rx="2"/>
+  </g>
+  <text x="200" y="98" font-family="Arial" font-size="8" font-weight="bold" fill="#1a40c0" text-anchor="middle">IBM</text>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">IBM Model M Keyboard — 1984</text>
+</svg>

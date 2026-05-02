@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2a"/>
+  
+  <!-- Body -->
+  <rect x="100" y="30" width="200" height="230" rx="15" fill="#d8d0c0"/>
+  <rect x="100" y="30" width="200" height="15" rx="8" fill="#c8c0b0"/>
+  <!-- Screen area -->
+  <rect x="115" y="50" width="170" height="130" rx="8" fill="#888"/>
+  <rect x="120" y="55" width="160" height="120" rx="6" fill="#1a2a1a"/>
+  <!-- Screen glow -->
+  <rect x="122" y="57" width="156" height="116" rx="5" fill="#0d1f0d"/>
+  <text x="200" y="125" font-family="monospace" font-size="14" fill="#00cc00" text-anchor="middle">Macintosh</text>
+  <rect x="125" y="140" width="10" height="10" fill="#00cc00" opacity="0.8"/>
+  <!-- Disk drive -->
+  <rect x="140" y="195" width="120" height="16" rx="3" fill="#bbb"/>
+  <rect x="150" y="198" width="100" height="10" rx="2" fill="#aaa"/>
+  <rect x="185" y="199" width="30" height="8" rx="1" fill="#888"/>
+  <!-- Apple logo -->
+  <text x="200" y="230" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">Apple</text>
+  <!-- Stand -->
+  <rect x="140" y="258" width="120" height="10" rx="4" fill="#bbb"/>
+  <rect x="160" y="248" width="80" height="12" rx="3" fill="#c8c0b0"/>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Apple Macintosh SE — 1987</text>
+</svg>

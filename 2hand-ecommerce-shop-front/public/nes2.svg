@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#111122"/>
+  
+  <rect x="50" y="80" width="300" height="160" rx="8" fill="#c8c8c8"/>
+  <rect x="50" y="80" width="300" height="12" rx="4" fill="#aaa"/>
+  <rect x="80" y="95" width="180" height="80" rx="5" fill="#aaa"/>
+  <rect x="90" y="105" width="160" height="60" rx="3" fill="#888"/>
+  <rect x="95" y="110" width="150" height="50" rx="2" fill="#555"/>
+  <text x="170" y="140" font-family="Arial" font-size="11" fill="#ccc" text-anchor="middle">INSERT CARTRIDGE</text>
+  <circle cx="290" cy="115" r="6" fill="#e52a2a"/>
+  <rect x="280" y="130" width="30" height="12" rx="3" fill="#888"/>
+  <text x="295" y="140" font-family="Arial" font-size="7" fill="#333" text-anchor="middle">RESET</text>
+  <rect x="85" y="185" width="40" height="25" rx="4" fill="#888"/>
+  <rect x="145" y="185" width="40" height="25" rx="4" fill="#888"/>
+  <rect x="90" y="190" width="30" height="15" rx="2" fill="#666"/>
+  <rect x="150" y="190" width="30" height="15" rx="2" fill="#666"/>
+  <text x="250" y="200" font-family="Arial" font-size="10" font-weight="bold" fill="#e52a2a" text-anchor="middle">Nintendo</text>
+  <text x="250" y="215" font-family="Arial" font-size="8" fill="#666" text-anchor="middle">ENTERTAINMENT SYSTEM</text>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Nintendo NES — 1985</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#111"/>
+  
+  <!-- Gun body -->
+  <rect x="80" y="100" width="200" height="80" rx="10" fill="#e8e8e8"/>
+  <rect x="80" y="100" width="200" height="15" rx="5" fill="#d8d8d8"/>
+  <!-- Barrel -->
+  <rect x="260" y="115" width="80" height="25" rx="5" fill="#ddd"/>
+  <rect x="330" y="120" width="20" height="15" rx="3" fill="#ccc"/>
+  <!-- Trigger guard -->
+  <path d="M150 175 Q165 200 200 205 Q215 205 225 195 L225 175" fill="#ddd" stroke="#ccc" stroke-width="1"/>
+  <!-- Trigger -->
+  <rect x="175" y="165" width="12" height="25" rx="3" fill="#aaa"/>
+  <!-- Orange accents -->
+  <rect x="82" y="115" width="80" height="20" rx="4" fill="#e87040"/>
+  <!-- Nintendo logo -->
+  <text x="125" y="150" font-family="Arial" font-size="9" fill="#e52a2a" text-anchor="middle">Nintendo</text>
+  <!-- Cable -->
+  <path d="M100 180 Q80 210 60 240 Q50 255 55 265" stroke="#999" stroke-width="4" fill="none"/>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">NES Zapper Light Gun — 1985</text>
+</svg>

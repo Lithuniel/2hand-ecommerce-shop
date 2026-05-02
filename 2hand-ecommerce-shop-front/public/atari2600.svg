@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#0d1117"/>
+  
+  <rect x="60" y="60" width="280" height="180" rx="8" fill="#1c1c1c"/>
+  <rect x="60" y="60" width="280" height="50" rx="8" fill="#333"/>
+  <rect x="60" y="95" width="280" height="15" fill="#2a2a2a"/>
+  <text x="200" y="85" font-family="Arial" font-size="16" font-weight="bold" fill="#e87040" text-anchor="middle">ATARI 2600</text>
+  <!-- Cartridge slot -->
+  <rect x="140" y="50" width="120" height="20" rx="4" fill="#111"/>
+  <rect x="155" y="52" width="90" height="14" rx="2" fill="#222"/>
+  <!-- Switches -->
+  <rect x="90" y="120" width="35" height="12" rx="3" fill="#555"/>
+  <rect x="140" y="120" width="35" height="12" rx="3" fill="#e87040"/>
+  <rect x="190" y="120" width="35" height="12" rx="3" fill="#555"/>
+  <rect x="240" y="120" width="35" height="12" rx="3" fill="#555"/>
+  <!-- Joystick ports -->
+  <rect x="90" y="155" width="60" height="60" rx="5" fill="#111"/>
+  <rect x="170" y="155" width="60" height="60" rx="5" fill="#111"/>
+  <rect x="115" y="178" width="10" height="10" rx="5" fill="#e87040"/>
+  <rect x="195" y="178" width="10" height="10" rx="5" fill="#e87040"/>
+  <!-- Wood panel -->
+  <rect x="60" y="200" width="280" height="40" rx="4" fill="#8B4513"/>
+  <line x1="60" y1="210" x2="340" y2="210" stroke="#6B3410" stroke-width="2"/>
+  <line x1="60" y1="220" x2="340" y2="220" stroke="#6B3410" stroke-width="2"/>
+  <line x1="60" y1="230" x2="340" y2="230" stroke="#6B3410" stroke-width="2"/>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Atari 2600 — 1977</text>
+</svg>

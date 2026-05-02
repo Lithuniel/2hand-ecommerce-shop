@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#0a0a1a"/>
+  
+  <rect x="50" y="40" width="300" height="220" rx="10" fill="#3a3020"/>
+  <rect x="60" y="50" width="220" height="165" rx="6" fill="#111"/>
+  <rect x="65" y="55" width="210" height="155" rx="5" fill="#0a1a2a"/>
+  <rect x="67" y="57" width="206" height="151" rx="4" fill="#1a3050"/>
+  <text x="168" y="145" font-family="Arial" font-size="20" font-weight="bold" fill="#f0c040" text-anchor="middle" opacity="0.8">ZENITH</text>
+  <text x="168" y="165" font-family="Arial" font-size="10" fill="#88aacc" text-anchor="middle">Color TV</text>
+  <!-- Wood panel bottom -->
+  <rect x="50" y="205" width="300" height="55" rx="5" fill="#5c3a1a"/>
+  <line x1="50" y1="215" x2="350" y2="215" stroke="#4a2e12" stroke-width="2"/>
+  <line x1="50" y1="225" x2="350" y2="225" stroke="#4a2e12" stroke-width="2"/>
+  <line x1="50" y1="235" x2="350" y2="235" stroke="#4a2e12" stroke-width="2"/>
+  <!-- Knobs -->
+  <circle cx="300" cy="85" r="14" fill="#2a2010" stroke="#8a6020" stroke-width="2"/>
+  <circle cx="300" cy="85" r="5" fill="#8a6020"/>
+  <circle cx="300" cy="130" r="14" fill="#2a2010" stroke="#8a6020" stroke-width="2"/>
+  <circle cx="300" cy="130" r="5" fill="#8a6020"/>
+  <circle cx="300" cy="175" r="10" fill="#2a2010" stroke="#8a6020" stroke-width="2"/>
+  <!-- Antenna -->
+  <line x1="160" y1="40" x2="130" y2="10" stroke="#888" stroke-width="3"/>
+  <line x1="200" y1="40" x2="230" y2="10" stroke="#888" stroke-width="3"/>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Zenith Color TV — 1970s</text>
+</svg>

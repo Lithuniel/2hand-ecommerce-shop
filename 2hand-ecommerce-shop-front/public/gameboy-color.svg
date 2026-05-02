@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#111"/>
+  
+  <rect x="120" y="30" width="160" height="250" rx="20" fill="#9966ff"/>
+  <rect x="120" y="30" width="160" height="20" rx="10" fill="#8855ee"/>
+  <!-- Screen area -->
+  <rect x="133" y="55" width="134" height="110" rx="8" fill="#7744dd"/>
+  <rect x="140" y="62" width="120" height="96" rx="5" fill="#1a1a2a"/>
+  <rect x="143" y="65" width="114" height="90" rx="4" fill="#8fbc8f"/>
+  <text x="200" y="114" font-family="monospace" font-size="13" fill="#2a4a2a" text-anchor="middle">Game Boy</text>
+  <text x="200" y="130" font-family="monospace" font-size="9" fill="#3a5a3a" text-anchor="middle">COLOR</text>
+  <!-- Nintendo Game Boy logo -->
+  <text x="200" y="182" font-family="Arial" font-size="8" fill="#6633cc" text-anchor="middle">Nintendo</text>
+  <text x="200" y="195" font-family="Arial" font-size="10" font-weight="bold" fill="#4422aa" text-anchor="middle">GAME BOY COLOR</text>
+  <!-- D-pad -->
+  <rect x="142" y="210" width="12" height="36" rx="3" fill="#4422aa"/>
+  <rect x="133" y="219" width="30" height="18" rx="3" fill="#4422aa"/>
+  <!-- A B buttons -->
+  <circle cx="278" cy="220" r="14" fill="#dd2222"/>
+  <text x="278" y="225" font-family="Arial" font-size="11" font-weight="bold" fill="white" text-anchor="middle">A</text>
+  <circle cx="255" cy="238" r="14" fill="#2222dd"/>
+  <text x="255" y="243" font-family="Arial" font-size="11" font-weight="bold" fill="white" text-anchor="middle">B</text>
+  <!-- Start Select -->
+  <rect x="172" y="248" width="24" height="8" rx="4" fill="#6633cc"/>
+  <rect x="204" y="248" width="24" height="8" rx="4" fill="#6633cc"/>
+  <!-- Speaker -->
+  <g stroke="#7744dd" stroke-width="2">
+    <line x1="240" y1="265" x2="260" y2="265"/>
+    <line x1="240" y1="271" x2="260" y2="271"/>
+    <line x1="244" y1="259" x2="256" y2="259"/>
+  </g>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Game Boy Color — 1998</text>
+</svg>

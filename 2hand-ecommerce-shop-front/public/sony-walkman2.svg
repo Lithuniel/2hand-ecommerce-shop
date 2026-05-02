@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a2a1a"/>
+  
+  <rect x="120" y="40" width="160" height="230" rx="12" fill="#226622"/>
+  <rect x="120" y="40" width="160" height="18" rx="6" fill="#1a5518"/>
+  <!-- Cassette window -->
+  <rect x="132" y="62" width="136" height="95" rx="6" fill="#1a4418"/>
+  <rect x="137" y="67" width="126" height="85" rx="4" fill="#0a2a0a"/>
+  <!-- Tape reels -->
+  <circle cx="172" cy="112" r="26" fill="#111" stroke="#336633" stroke-width="2"/>
+  <circle cx="172" cy="112" r="16" fill="#1a1a1a"/>
+  <circle cx="172" cy="112" r="6" fill="#444"/>
+  <circle cx="228" cy="112" r="26" fill="#111" stroke="#336633" stroke-width="2"/>
+  <circle cx="228" cy="112" r="16" fill="#1a1a1a"/>
+  <circle cx="228" cy="112" r="6" fill="#444"/>
+  <path d="M172 112 Q200 88 228 112" stroke="#888" stroke-width="3" fill="none"/>
+  <!-- Controls -->
+  <g fill="#1a4418">
+    <rect x="130" y="172" width="26" height="20" rx="3"/>
+    <rect x="162" y="172" width="26" height="20" rx="3"/>
+    <rect x="194" y="172" width="26" height="20" rx="3"/>
+    <rect x="226" y="172" width="26" height="20" rx="3"/>
+  </g>
+  <polygon points="138,180 148,183 138,187" fill="#aaffaa"/>
+  <rect x="168" y="178" width="5" height="10" fill="#aaffaa"/>
+  <rect x="176" y="178" width="5" height="10" fill="#aaffaa"/>
+  <rect x="202" y="178" width="12" height="10" fill="#aaffaa"/>
+  <polygon points="233,180 243,183 233,187" fill="#aaffaa"/>
+  <!-- SONY label -->
+  <text x="200" y="215" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">SONY</text>
+  <text x="200" y="230" font-family="Arial" font-size="9" fill="#aaffaa" text-anchor="middle">Walkman Cassette</text>
+  <circle cx="145" cy="252" r="6" fill="#111" stroke="#668866" stroke-width="2"/>
+  <rect x="251" y="200" width="12" height="50" rx="6" fill="#1a4418" stroke="#33aa55" stroke-width="2"/>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Sony Walkman Cassette Player — 1982</text>
+</svg>

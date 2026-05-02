@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a2a3a"/>
+  
+  <rect x="120" y="40" width="160" height="230" rx="12" fill="#2255aa"/>
+  <rect x="120" y="40" width="160" height="20" rx="6" fill="#1a44aa"/>
+  <!-- Cassette window -->
+  <rect x="133" y="65" width="134" height="90" rx="6" fill="#1a3380"/>
+  <rect x="138" y="70" width="124" height="80" rx="4" fill="#0a1a50"/>
+  <!-- Tape reels -->
+  <circle cx="175" cy="112" r="25" fill="#111" stroke="#444" stroke-width="2"/>
+  <circle cx="175" cy="112" r="15" fill="#222"/>
+  <circle cx="175" cy="112" r="6" fill="#555"/>
+  <circle cx="225" cy="112" r="25" fill="#111" stroke="#444" stroke-width="2"/>
+  <circle cx="225" cy="112" r="15" fill="#222"/>
+  <circle cx="225" cy="112" r="6" fill="#555"/>
+  <!-- Tape -->
+  <path d="M175 112 Q200 90 225 112" stroke="#888" stroke-width="3" fill="none"/>
+  <!-- Controls -->
+  <g fill="#1a3380">
+    <rect x="130" y="170" width="25" height="20" rx="3"/>
+    <rect x="162" y="170" width="25" height="20" rx="3"/>
+    <rect x="194" y="170" width="25" height="20" rx="3"/>
+    <rect x="226" y="170" width="25" height="20" rx="3"/>
+  </g>
+  <!-- Play symbols -->
+  <polygon points="138,178 148,182 138,186" fill="#aaddff"/>
+  <rect x="168" y="176" width="5" height="10" fill="#aaddff"/>
+  <rect x="176" y="176" width="5" height="10" fill="#aaddff"/>
+  <rect x="200" y="176" width="12" height="10" fill="#aaddff"/>
+  <polygon points="232,178 242,182 232,186" fill="#aaddff"/>
+  <!-- SONY label -->
+  <text x="200" y="215" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">SONY</text>
+  <text x="200" y="232" font-family="Arial" font-size="9" fill="#aaddff" text-anchor="middle">Walkman</text>
+  <!-- Headphone jack -->
+  <circle cx="145" cy="255" r="6" fill="#111" stroke="#888" stroke-width="2"/>
+  <!-- Volume wheel -->
+  <rect x="252" y="200" width="12" height="50" rx="6" fill="#1a3380" stroke="#4488cc" stroke-width="2"/>
+
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Sony Walkman — 1979</text>
+</svg>
