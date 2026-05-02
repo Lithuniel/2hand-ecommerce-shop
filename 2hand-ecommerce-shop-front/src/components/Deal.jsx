@@ -4,7 +4,7 @@ import { AuthContext } from "../contexts/auth-context.jsx";
 import "../assets/css/Deal.css";
 import { getDealExchangeConditions } from "../api/get-deal-exchange-conditioons.js";
 import { getDealRates } from "../api/get-deal-rates.js";
-import { RatingModal } from "./ratingModal.jsx";
+import { RatingModal } from "./RatingModal.jsx";
 
 export function Deal({ deal, onAccept, onReject }) {
   const { currentUser, token } = useContext(AuthContext);
