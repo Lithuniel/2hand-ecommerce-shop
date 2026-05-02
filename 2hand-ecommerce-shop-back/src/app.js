@@ -24,12 +24,13 @@ app.get("/init-db", async (req, res) => {
 
 app.use(
   cors({
-    origin: [
-      "troco.netlify.app",
-      "https://troco.pro",
-      "http://localhost:8080",
-      "http://localhost:5173",
-    ],
+origin: [
+  "https://troco.netlify.app",
+  "https://troco.up.railway.app",
+  "https://troco.pro",
+  "http://localhost:8080",
+  "http://localhost:5173",
+],
   })
 );
 app.use(validateToken);
