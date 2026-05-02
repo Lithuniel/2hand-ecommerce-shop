@@ -1,6 +1,6 @@
 import { Navbar } from "../components/Navbar";
 import userhome from "../assets/img/user_white.svg";
-import logo from "../assets/img/troco.svg";
+import logo from "../assets/img/Troco.svg";
 import "../assets/css/Popup.css";
 import "../assets/css/Navbar.css";
 import "../assets/css/Header.css";
